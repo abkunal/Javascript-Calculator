@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html {
+  font-family: 'Lora', serif;
+}
+
+body {
+  background-color: #fe8888;
+}
+
+.main {
+  display: block;
+  width: 23.56em;
+  font-family: 'Lora', serif;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  background-color: #fafafa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: crimson;
+}
+
+p {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#display {
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+#sofar {
+  text-align: right;
+  color: #666;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+#current {
+  text-align: right;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.button-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  border: 0px;
+  background-color: #eee;
+}
+
+button#equals {
+  border-bottom-right-radius: 10px;
+}
+
+.small {
+  height: 3em;
+  width: 4.5em;
+  font-size: 1.3em;
+}
+
+.large {
+  height: 3em;
+  width: 9em;
+  font-size: 1.3em;
+}
+
+.main {
+  border-radius: 10px;
+}
+
+button#zero {
+  border-bottom-left-radius: 10px;
+}
+
+button:hover, button:focus {
+  background-color: #ccc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  padding-right: 5px;
+}
